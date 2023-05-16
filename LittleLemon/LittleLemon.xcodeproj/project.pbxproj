@@ -16,6 +16,8 @@
 		917BDDB42A13D24500359FF0 /* LittleLemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDDB32A13D24500359FF0 /* LittleLemonUITests.swift */; };
 		917BDDB62A13D24500359FF0 /* LittleLemonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDDB52A13D24500359FF0 /* LittleLemonUITestsLaunchTests.swift */; };
 		917BDDC32A13D3A800359FF0 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDDC22A13D3A800359FF0 /* Onboarding.swift */; };
+		917BDDC52A13EA7300359FF0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDDC42A13EA7300359FF0 /* Home.swift */; };
+		917BDDC72A13EAA700359FF0 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDDC62A13EAA700359FF0 /* Menu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		917BDDB32A13D24500359FF0 /* LittleLemonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonUITests.swift; sourceTree = "<group>"; };
 		917BDDB52A13D24500359FF0 /* LittleLemonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		917BDDC22A13D3A800359FF0 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		917BDDC42A13EA7300359FF0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		917BDDC62A13EAA700359FF0 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				917BDD9E2A13D24500359FF0 /* LittleLemon.xcdatamodeld */,
 				917BDD992A13D24500359FF0 /* Preview Content */,
 				917BDDC22A13D3A800359FF0 /* Onboarding.swift */,
+				917BDDC42A13EA7300359FF0 /* Home.swift */,
+				917BDDC62A13EAA700359FF0 /* Menu.swift */,
 			);
 			path = LittleLemon;
 			sourceTree = "<group>";
@@ -263,8 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				917BDDC72A13EAA700359FF0 /* Menu.swift in Sources */,
 				917BDD9D2A13D24500359FF0 /* Persistence.swift in Sources */,
 				917BDDA02A13D24500359FF0 /* LittleLemon.xcdatamodeld in Sources */,
+				917BDDC52A13EA7300359FF0 /* Home.swift in Sources */,
 				917BDDC32A13D3A800359FF0 /* Onboarding.swift in Sources */,
 				917BDD942A13D24300359FF0 /* LittleLemonApp.swift in Sources */,
 			);
