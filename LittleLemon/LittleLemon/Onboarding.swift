@@ -11,6 +11,8 @@ let firstNameKey = "first name key"
 let lastNameKey = "last name key"
 let emailKey = "email key"
 
+let isLoggedInKey = "logged in key"
+
 struct Onboarding: View {
     @State var firstName: String = ""
     @State var lastName: String = ""
@@ -47,9 +49,14 @@ struct Onboarding: View {
                                 UserDefaults.standard.set(self.firstName, forKey: firstNameKey)
                                 UserDefaults.standard.set(self.lastName, forKey: lastNameKey)
                                 UserDefaults.standard.set(self.email, forKey: emailKey)
+                                UserDefaults.standard.set(true, forKey: isLoggedInKey)
                                 self.isLoggedIn = true
                             }
                         }.withRegisterButtonStyles().disabled(!textFieldsCorrectlyFilled)
+                    }.onAppear {
+                        if UserDefaults.standard.bool(forKey: isLoggedInKey) {
+                            self.isLoggedIn = true
+                        }
                     }
                     .frame(width: geometry.size.width)
                     .frame(minHeight: geometry.size.height)
