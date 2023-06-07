@@ -7,10 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91089CE92A28FB7E008BC297 /* Navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91089CE82A28FB7E008BC297 /* Navbar.swift */; };
+		91089CF22A290A7A008BC297 /* MarkaziText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91089CEF2A2909DA008BC297 /* MarkaziText-Bold.ttf */; };
+		91089CF32A290A7E008BC297 /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91089CF02A2909DA008BC297 /* MarkaziText-Medium.ttf */; };
+		91089CF42A290A80008BC297 /* MarkaziText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91089CF12A2909DA008BC297 /* MarkaziText-Regular.ttf */; };
+		91089CF52A290A83008BC297 /* MarkaziText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91089CEE2A2909DA008BC297 /* MarkaziText-SemiBold.ttf */; };
+		91089D062A29192B008BC297 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91089CFF2A2918FB008BC297 /* Karla-Regular.ttf */; };
+		91089D082A291E24008BC297 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91089D072A291E24008BC297 /* Info.swift */; };
+		91089D0A2A291FFF008BC297 /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91089D092A291FFF008BC297 /* Categories.swift */; };
+		91089D0C2A2920AD008BC297 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 91089D0B2A29209B008BC297 /* Karla-Bold.ttf */; };
 		917BDD942A13D24300359FF0 /* LittleLemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDD932A13D24300359FF0 /* LittleLemonApp.swift */; };
 		917BDD982A13D24500359FF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917BDD972A13D24500359FF0 /* Assets.xcassets */; };
 		917BDD9B2A13D24500359FF0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 917BDD9A2A13D24500359FF0 /* Preview Assets.xcassets */; };
-		917BDD9D2A13D24500359FF0 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDD9C2A13D24500359FF0 /* Persistence.swift */; };
 		917BDDA02A13D24500359FF0 /* LittleLemon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 917BDD9E2A13D24500359FF0 /* LittleLemon.xcdatamodeld */; };
 		917BDDAA2A13D24500359FF0 /* LittleLemonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDDA92A13D24500359FF0 /* LittleLemonTests.swift */; };
 		917BDDB42A13D24500359FF0 /* LittleLemonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDDB32A13D24500359FF0 /* LittleLemonUITests.swift */; };
@@ -18,7 +26,15 @@
 		917BDDC32A13D3A800359FF0 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDDC22A13D3A800359FF0 /* Onboarding.swift */; };
 		917BDDC52A13EA7300359FF0 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDDC42A13EA7300359FF0 /* Home.swift */; };
 		917BDDC72A13EAA700359FF0 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917BDDC62A13EAA700359FF0 /* Menu.swift */; };
+		918C1C062A310B060060D9CA /* DishCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918C1C052A310B060060D9CA /* DishCard.swift */; };
 		91BB86542A17D05F0027C3ED /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB86532A17D05F0027C3ED /* UserProfile.swift */; };
+		91BB86582A17D3370027C3ED /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB86562A17D3370027C3ED /* FetchedObjects.swift */; };
+		91BB86602A17D4670027C3ED /* Persistence.swift 17-59-09-496.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB865F2A17D4670027C3ED /* Persistence.swift 17-59-09-496.swift */; };
+		91BB86622A17D4840027C3ED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB86612A17D4840027C3ED /* Persistence.swift */; };
+		91BB86642A17D4920027C3ED /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB86632A17D4920027C3ED /* Persistence.swift */; };
+		91BB86672A17D4D60027C3ED /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB86662A17D4D60027C3ED /* MenuList.swift */; };
+		91BB86692A17D4DE0027C3ED /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91BB86682A17D4DE0027C3ED /* MenuItem.swift */; };
+		91BB866C2A17D6A00027C3ED /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91BB866A2A17D6A00027C3ED /* ExampleDatabase.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +55,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		91089CE82A28FB7E008BC297 /* Navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar.swift; sourceTree = "<group>"; };
+		91089CED2A29094F008BC297 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		91089CEE2A2909DA008BC297 /* MarkaziText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-SemiBold.ttf"; sourceTree = "<group>"; };
+		91089CEF2A2909DA008BC297 /* MarkaziText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Bold.ttf"; sourceTree = "<group>"; };
+		91089CF02A2909DA008BC297 /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
+		91089CF12A2909DA008BC297 /* MarkaziText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Regular.ttf"; sourceTree = "<group>"; };
+		91089CFF2A2918FB008BC297 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		91089D072A291E24008BC297 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
+		91089D092A291FFF008BC297 /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		91089D0B2A29209B008BC297 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
 		917BDD902A13D24300359FF0 /* LittleLemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		917BDD932A13D24300359FF0 /* LittleLemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonApp.swift; sourceTree = "<group>"; };
 		917BDD972A13D24500359FF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		917BDD9A2A13D24500359FF0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		917BDD9C2A13D24500359FF0 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		917BDD9F2A13D24500359FF0 /* LittleLemon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LittleLemon.xcdatamodel; sourceTree = "<group>"; };
 		917BDDA52A13D24500359FF0 /* LittleLemonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LittleLemonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		917BDDA92A13D24500359FF0 /* LittleLemonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonTests.swift; sourceTree = "<group>"; };
@@ -53,7 +78,15 @@
 		917BDDC22A13D3A800359FF0 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 		917BDDC42A13EA7300359FF0 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		917BDDC62A13EAA700359FF0 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		918C1C052A310B060060D9CA /* DishCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishCard.swift; sourceTree = "<group>"; };
 		91BB86532A17D05F0027C3ED /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		91BB86562A17D3370027C3ED /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		91BB865F2A17D4670027C3ED /* Persistence.swift 17-59-09-496.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Persistence.swift 17-59-09-496.swift"; sourceTree = "<group>"; };
+		91BB86612A17D4840027C3ED /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		91BB86632A17D4920027C3ED /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		91BB86662A17D4D60027C3ED /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		91BB86682A17D4DE0027C3ED /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		91BB866B2A17D6A00027C3ED /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +114,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91089CEA2A290818008BC297 /* FONTS */ = {
+			isa = PBXGroup;
+			children = (
+				91089CF72A2918EB008BC297 /* Karla */,
+				91089CF62A2918DC008BC297 /* MarkaziText */,
+			);
+			path = FONTS;
+			sourceTree = "<group>";
+		};
+		91089CF62A2918DC008BC297 /* MarkaziText */ = {
+			isa = PBXGroup;
+			children = (
+				91089CEF2A2909DA008BC297 /* MarkaziText-Bold.ttf */,
+				91089CF02A2909DA008BC297 /* MarkaziText-Medium.ttf */,
+				91089CF12A2909DA008BC297 /* MarkaziText-Regular.ttf */,
+				91089CEE2A2909DA008BC297 /* MarkaziText-SemiBold.ttf */,
+			);
+			path = MarkaziText;
+			sourceTree = "<group>";
+		};
+		91089CF72A2918EB008BC297 /* Karla */ = {
+			isa = PBXGroup;
+			children = (
+				91089CFF2A2918FB008BC297 /* Karla-Regular.ttf */,
+				91089D0B2A29209B008BC297 /* Karla-Bold.ttf */,
+			);
+			path = Karla;
+			sourceTree = "<group>";
+		};
 		917BDD872A13D24300359FF0 = {
 			isa = PBXGroup;
 			children = (
@@ -104,15 +166,22 @@
 		917BDD922A13D24300359FF0 /* LittleLemon */ = {
 			isa = PBXGroup;
 			children = (
+				91089CED2A29094F008BC297 /* Info.plist */,
+				91089CEA2A290818008BC297 /* FONTS */,
+				91BB86652A17D4C00027C3ED /* Models */,
+				91BB865A2A17D42C0027C3ED /* CORE DATA */,
 				917BDD932A13D24300359FF0 /* LittleLemonApp.swift */,
 				917BDD972A13D24500359FF0 /* Assets.xcassets */,
-				917BDD9C2A13D24500359FF0 /* Persistence.swift */,
 				917BDD9E2A13D24500359FF0 /* LittleLemon.xcdatamodeld */,
 				917BDD992A13D24500359FF0 /* Preview Content */,
 				917BDDC22A13D3A800359FF0 /* Onboarding.swift */,
 				917BDDC42A13EA7300359FF0 /* Home.swift */,
 				917BDDC62A13EAA700359FF0 /* Menu.swift */,
 				91BB86532A17D05F0027C3ED /* UserProfile.swift */,
+				91089CE82A28FB7E008BC297 /* Navbar.swift */,
+				91089D072A291E24008BC297 /* Info.swift */,
+				91089D092A291FFF008BC297 /* Categories.swift */,
+				918C1C052A310B060060D9CA /* DishCard.swift */,
 			);
 			path = LittleLemon;
 			sourceTree = "<group>";
@@ -136,10 +205,31 @@
 		917BDDB22A13D24500359FF0 /* LittleLemonUITests */ = {
 			isa = PBXGroup;
 			children = (
+				91BB86612A17D4840027C3ED /* Persistence.swift */,
+				91BB865F2A17D4670027C3ED /* Persistence.swift 17-59-09-496.swift */,
 				917BDDB32A13D24500359FF0 /* LittleLemonUITests.swift */,
 				917BDDB52A13D24500359FF0 /* LittleLemonUITestsLaunchTests.swift */,
 			);
 			path = LittleLemonUITests;
+			sourceTree = "<group>";
+		};
+		91BB865A2A17D42C0027C3ED /* CORE DATA */ = {
+			isa = PBXGroup;
+			children = (
+				91BB86632A17D4920027C3ED /* Persistence.swift */,
+				91BB86562A17D3370027C3ED /* FetchedObjects.swift */,
+				91BB866A2A17D6A00027C3ED /* ExampleDatabase.xcdatamodeld */,
+			);
+			path = "CORE DATA";
+			sourceTree = "<group>";
+		};
+		91BB86652A17D4C00027C3ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				91BB86662A17D4D60027C3ED /* MenuList.swift */,
+				91BB86682A17D4DE0027C3ED /* MenuItem.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +336,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91089CF52A290A83008BC297 /* MarkaziText-SemiBold.ttf in Resources */,
+				91089CF42A290A80008BC297 /* MarkaziText-Regular.ttf in Resources */,
+				91089CF32A290A7E008BC297 /* MarkaziText-Medium.ttf in Resources */,
+				91089D0C2A2920AD008BC297 /* Karla-Bold.ttf in Resources */,
 				917BDD9B2A13D24500359FF0 /* Preview Assets.xcassets in Resources */,
+				91089D062A29192B008BC297 /* Karla-Regular.ttf in Resources */,
 				917BDD982A13D24500359FF0 /* Assets.xcassets in Resources */,
+				91089CF22A290A7A008BC297 /* MarkaziText-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +368,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				91BB866C2A17D6A00027C3ED /* ExampleDatabase.xcdatamodeld in Sources */,
+				91089D0A2A291FFF008BC297 /* Categories.swift in Sources */,
+				918C1C062A310B060060D9CA /* DishCard.swift in Sources */,
 				917BDDC72A13EAA700359FF0 /* Menu.swift in Sources */,
-				917BDD9D2A13D24500359FF0 /* Persistence.swift in Sources */,
+				91BB86642A17D4920027C3ED /* Persistence.swift in Sources */,
+				91089D082A291E24008BC297 /* Info.swift in Sources */,
 				91BB86542A17D05F0027C3ED /* UserProfile.swift in Sources */,
 				917BDDA02A13D24500359FF0 /* LittleLemon.xcdatamodeld in Sources */,
 				917BDDC52A13EA7300359FF0 /* Home.swift in Sources */,
 				917BDDC32A13D3A800359FF0 /* Onboarding.swift in Sources */,
 				917BDD942A13D24300359FF0 /* LittleLemonApp.swift in Sources */,
+				91BB86672A17D4D60027C3ED /* MenuList.swift in Sources */,
+				91089CE92A28FB7E008BC297 /* Navbar.swift in Sources */,
+				91BB86582A17D3370027C3ED /* FetchedObjects.swift in Sources */,
+				91BB86692A17D4DE0027C3ED /* MenuItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +399,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				917BDDB62A13D24500359FF0 /* LittleLemonUITestsLaunchTests.swift in Sources */,
+				91BB86622A17D4840027C3ED /* Persistence.swift in Sources */,
 				917BDDB42A13D24500359FF0 /* LittleLemonUITests.swift in Sources */,
+				91BB86602A17D4670027C3ED /* Persistence.swift 17-59-09-496.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,6 +545,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LittleLemon/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LittleLemon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -467,6 +574,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"LittleLemon/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LittleLemon/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -606,6 +714,16 @@
 			);
 			currentVersion = 917BDD9F2A13D24500359FF0 /* LittleLemon.xcdatamodel */;
 			path = LittleLemon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		91BB866A2A17D6A00027C3ED /* ExampleDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91BB866B2A17D6A00027C3ED /* ExampleDatabase.xcdatamodel */,
+			);
+			currentVersion = 91BB866B2A17D6A00027C3ED /* ExampleDatabase.xcdatamodel */;
+			path = ExampleDatabase.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

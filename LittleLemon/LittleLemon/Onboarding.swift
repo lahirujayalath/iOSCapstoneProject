@@ -10,6 +10,7 @@ import SwiftUI
 let firstNameKey = "first name key"
 let lastNameKey = "last name key"
 let emailKey = "email key"
+let phoneNumberKey = "phone number key"
 
 let isLoggedInKey = "logged in key"
 
@@ -25,19 +26,20 @@ struct Onboarding: View {
             NavigationView {
                 ScrollView {
                     VStack {
-                        Image("Logo").padding()
+                        Image("Logo")
+                        Info()
 
                         NavigationLink(destination: Home(), isActive: self.$isLoggedIn) {
                             EmptyView()
                         }
-
-                        TextField("First Name",
+                        TextField("First Name*",
                                   text: self.$firstName)
                             .withInputTextFieldsStyles()
 
-                        TextField("Last Name",
+                        TextField("Last Name*",
                                   text: self.$lastName).withInputTextFieldsStyles()
-                        TextField("E-Mail",
+
+                        TextField("E-Mail*",
                                   text: self.$email).withInputTextFieldsStyles()
                             .keyboardType(.emailAddress)
 
